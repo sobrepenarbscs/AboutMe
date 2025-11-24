@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #252525;
+  font-family: 'Segoe UI';
+  color: #333;
+  padding: 20px;
+}
+
+img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 5px solid #00d4ff;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+div.AboutMe {
+  border: 5px solid #00d4ff;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #505050;
+  margin-top: 30px;
+  max-width: 600px;
+  color: white;
+}
+
+h1 {
+  margin: 15px 0 5px 0;
+  font-size: 2.5em;
+  color: #00d4ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  padding: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+div.Skills {
+  border: 5px solid #00d4ff;
+  padding:  20px;
+  border-radius: 8px;
+  background-color: #505050;
+  margin-top: 30px;
+  min-width: 600px;
+  max-width: 600px;
+  color : white;
+}
+
+h2 {
+  margin-top: 0;
+  color: #00d4ff;
+  font-size: 1.8em;
+  font-family: 'Segoe UI';
+}
+
+ul {
+  margin: 15px 0 0 0;
+  text-align: left;
+  font-size: 1.05em;
+  line-height: 1.8;
+}
+
+div.Contact {
+  border: 5px solid #00d4ff;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #505050;
+  margin-top: 30px;
+  max-width: 600px;
+  color: white; 
+}
+
+div.Contact h2 {
+  margin: 0 0 10px 0;
+}
+
+div.Contact p {
+  margin: 5px 0;
+  padding: 0;
+  font-size: 0.95em;
+}
+
+div.Contact a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+div.Contact a:hover {
+  text-decoration: underline;
+}
